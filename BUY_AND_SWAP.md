@@ -1,73 +1,102 @@
-# Fiat Router Buy and Swap Documentation
+# Fiat Router
 
-## Overview
+## A Quick Summary
 
-Fiat Router is a seamless gateway that allows users to **buy cryptocurrencies using fiat currencies** and **swap between different cryptocurrencies** efficiently. This documentation covers the **Buy** and **Swap** features, guiding users and developers on how to interact with these functionalities.
+Fiat Router is a fluid gateway that makes it easy for users to effectively swap different cryptocurrencies and buy cryptocurrencies using fiat currency (Naira for now).
+
+This README is a guide on how the **Buy** and **Swap** features work on Fiat Router so developers and users can get a hang of it.
+
+---
 
 ## Buy Section
 
-### What is the Buy Feature?
+Through the Buy feature, users can directly exchange their traditional fiat currency (NGN for now) for cryptocurrencies within the Fiat Router platform.
 
-The Buy feature enables users to convert their traditional fiat money (e.g., USD, EUR, NGN) into cryptocurrencies directly within the Fiat Router platform. This eliminates the need for multiple intermediaries, providing a fast, secure, and compliant onramp to crypto.
+This helps get rid of the need for numerous middlemen, and offers a quick, safe, and legal onramp to cryptocurrency.
 
 ### How It Works
 
-1. User selects fiat currency and the cryptocurrency they want to buy.
-2. User enters the amount they wish to spend or receive.
-3. Fiat Router aggregates liquidity providers and routes the transaction to get the best price and lowest fees.
-4. User completes payment via supported methods (bank transfer, credit/debit card, etc.).
-5. Purchased cryptocurrency is deposited into the user’s linked crypto wallet instantly or within a short processing time.
-6. Transaction details and receipts are available for user review.
+1. You put in your phone number.
+2. Select Wallet to connect.  
+   *(If you don’t want to connect it, you can just paste your wallet address.)*
+3. Or use a custom wallet address.
+4. Select Token (e.g., SOL).  
+   *(If the token isn’t listed, you can add it manually.)*
+5. Or use a custom token address.
+6. Input the amount (NGN) you’d like to buy.  
+   *(The minimum amount is ₦1,500 and the maximum is ₦40,000.)*  
+   *(There is also a 0.5% Paga payment charge.)*
+7. Proceed to make a payment.
+
+There are 5 ways to make a payment: Card, Paga, Transfer, Agent, USSD.
+
+Choose which you’d prefer, and after paying, confirm your payment in seconds by clicking the green **“Paid”** button.
+
+And that’s it! You will get your tokens immediately and also get your transaction details on Solscan.
 
 ### Supported Fiat and Crypto
 
-- Fiat currencies: USD, EUR, NGN, and others.
-- Cryptocurrencies: Bitcoin (BTC), Ethereum (ETH), USDC, and more.
+- **Fiat currencies:** NGN (for now).  
+- **Cryptocurrencies:**  
+    - Solana (SOL)  
+    - USD Coin (USDC)  
+    - Tesla xStock (TSLAx)  
+    - NVIDIA xStock (NVDAx)  
+    - Circle xStock (CRCLx)  
+    - MicroStrategy xStock (MSTRx)  
+    - Kin (KIN)  
+    - Custom tokens under the Solana network can also be added.
 
 ### User Benefits
 
-- Instant access to crypto without delays from bank processing.
-- Competitive pricing through smart routing.
-- Secure and compliant KYC/AML processes integrated.
+- Instant access to crypto without delays from bank processing.  
+- Competitive pricing through smart routing.  
+- Integrated KYC/AML procedures that are safe and legal.
+
+---
 
 ## Swap Section
 
-### What is the Swap Feature?
-
-The Swap feature allows users to exchange one cryptocurrency for another directly on the Fiat Router platform, leveraging aggregated liquidity from multiple decentralized exchanges (DEXs) and centralized sources.
+With the help of the Swap feature, users can instantly switch between cryptocurrencies on the Fiat Router platform by using combined liquidity from several decentralized exchanges (Jupiter Exchange for now).
 
 ### How It Works
 
-1. User selects the input cryptocurrency and the output cryptocurrency.
-2. User enters the amount to swap.
-3. Fiat Router’s Smart Order Router finds the best rates across multiple liquidity sources.
-4. User confirms the swap details including price, fees, and estimated transaction time.
-5. The swap is executed on-chain or via integrated liquidity providers.
-6. Swapped tokens are delivered to the user’s wallet.
+1. Click on Jupiter Swap.  
+2. Connect your preferred wallet (Metamask, Phantom, Trust, or Magic Eden).  
+3. Select the coin you wish to sell from your wallet.  
+4. Select the coin you wish to buy (swap) it for.  
+5. Click on the green **Swap** button.  
+6. Confirm the transaction.  
+7. The token will be automatically added to your wallet.
 
 ### Supported Swaps
 
-- ERC-20 tokens and major cryptocurrencies supported on the Base blockchain and others.
-- Fast execution with minimal slippage and low fees.
+- Major cryptocurrencies supported on the Solana blockchain, including SPL tokens.  
+- Low fees and quick execution with minimal slippage.
 
-### User Benefits
+### Advantages for Users
 
-- Access to best market prices without manual searching.
-- Reduced transaction costs and slippage.
-- Convenient and secure token swaps in one interface.
+- Access to the best market prices available without manual searching.  
+- Decreased slippage and transaction costs.  
+- Token exchanges that are both easy and safe under a single interface.
 
-## Error Handling and Support
+---
 
-- Common errors include insufficient funds, network congestion, or failed KYC verification.
-- Users should verify wallet addresses and payment details carefully.
-- For assistance, users can contact Fiat Router support via (X:@fiatrouter) or Telegram bot @fiatrouterbot.
+## Error Management and Assistance
+
+- Common errors include inadequate cash, network congestion, or unsuccessful KYC verification.  
+- Users should carefully check their payment information and wallet addresses.  
+- Users can reach Fiat Router for support by sending a message to the official X account [@fiatrouter](https://twitter.com/fiatrouter).
+
+---
 
 ## Developer Notes (for GitHub)
 
-- API endpoints for Buy and Swap will be documented separately.
-- Smart contract addresses and integration guides will be updated here.
+- API endpoints for Buy and Swap will be documented separately.  
+- Smart contract addresses and integration guides will be updated here.  
 - Contributions and feedback are welcome via GitHub issues and pull requests.
 
 ---
 
-*This document is a draft to help understand Fiat Router’s Buy and Swap features.*
+*Thank you
+
